@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Mono:wght@200 & display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, monospace;
+}
+
+nav {
+    width: 100%;
+    background-color: #1B895A;
+    float: left;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav h1 img {
+    width: 100px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.botao-cardapio {
+    float: right;
+    background-color: #AC233D;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    margin-top: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    border-radius: 70px;
+}
+
+.botao-pedido {
+    float: right;
+    background-color:#AC233D;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    margin-top: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    border-radius: 70px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 0px 31px -2px #DA291C;
+}
+
+.botao-pedido:hover{
+    transition: 1s;
+    background-color:#851a2d;
+    box-shadow: 0px 0px 31px -2px #DA291C;
+    color: white;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.botao-conf {
+    float: left;
+    background-color:#1B895A;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.header-imagem {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #F8E6BA;
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7{width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+footer {
+    background-color: #1B895A;
+    color: black;
+
+
+}
+.container_main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pizzas{
+    width: 100%;
+    height: 100%;
+
+}
+
+#contrasteBranco .row-header,
+#contrasteBranco .row-top,
+#contrasteBranco .row-banner,
+#contrasteBranco .row-content,
+#contrasteBranco footer{
+  border-top: 1px solid #0a0a0a;
+  background: #FFFFFF;
+}
+
+#contrasteBranco nav ul li a,
+#contrasteBranco .row-top,
+#contrasteBranco .row-banner,
+#contrasteBranco .row-content,
+#contrasteBranco .row-content .box p,
+#contrasteBranco .row-content .box i,
+#contrasteBranco .row-banner h1 span,
+#contrasteBranco footer {
+  color: #000000;
+}
+
+#contrasteBranco nav ul li a.contraste-active {
+  color: #FFFFFF;
+  background: #000000;
+}
+
+#contrasteBranco nav ul li a[data-contraste="1"],
+#contrastePreto nav ul li a[data-contraste="0"] {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+#contrasteBranco .row-banner .avatar {
+  border: 5px solid #000;
+}
+
+#contrastePreto .row-header,
+#contrastePreto .row-top,
+#contrastePreto .row-banner,
+#contrastePreto .row-content,
+#contrastePreto footer{
+  border-top: 1px solid #FFFFFF;
+  background: #000000;
+}
+
+#contrastePreto nav ul li a,
+#contrastePreto .row-top,
+#contrastePreto .row-banner,
+#contrastePreto .row-content,
+#contrastePreto .row-content .box p,
+#contrastePreto .row-content .box i,
+#contrastePreto .row-banner h1 span,
+#contrastePreto footer {
+  color: #FFFFFF;
+}
+
+#contrastePreto nav ul li a[data-contraste="2"] {
+  color: #000000;
+  background: #FFFFFF;
+}
+
+#contrastePreto .row-banner .avatar {
+  border: 5px solid #FFFFFF;
+}
+
+#contrasteAzul .row-header,
+#contrasteAzul .row-top,
+#contrasteAzul .row-banner,
+#contrasteAzul .row-content,
+#contrasteAzul footer{
+  border-top: 1px solid #FFFFFF;
+  background: #0b325c;
+}
+
+#contrasteAzul nav ul li a[data-contraste="0"] {
+  background: #0b325c;
+}
+
+#contrasteAzul nav ul li a[data-contraste="3"] {
+  background: #FFFFFF;
+  color: #0b325c;
+}
+
+#contrasteAzul nav ul li a,
+#contrasteAzul .row-top,
+#contrasteAzul .row-banner,
+#contrasteAzul .row-content,
+#contrasteAzul .row-content .box p,
+#contrasteAzul .row-content .box i,
+#contrasteAzul .row-banner h1 span,
+#contrasteAzul footer {
+  color: #FFFFFF;
+}
+
+#contrasteAzul nav ul li a.contraste-active {
+  color: #0b325c;
+  background: #FFFFFF;
+}
+
+#contrasteAzul .row-banner .avatar {
+  border: 5px solid #FFFFFF;
+}
